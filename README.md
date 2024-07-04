@@ -19,7 +19,7 @@ The objective of this assignment is to use various OS concepts to create a hotel
 4. Admin Process
 
 ## System Overview
-
+![ATC System Diagram](Architecture.png)
 - **Table Process:** Each table in the hotel is a separate process. A table process can have multiple customer processes (child processes), each representing a customer sitting at the table.
 - **Customer Process:** A customer process takes food orders and communicates with the table process using pipes.
 - **Waiter Process:** Each waiter process is responsible for a specific table and calculates the total bill amount based on orders received.
